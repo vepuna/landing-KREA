@@ -1,0 +1,65 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.container {
+width: 100%;
+max-width: 1520px;
+margin: 0 auto;
+}
+@font-face {
+    font-family: "BIG JOHN";
+    src: url(fonts/BIG JOHN.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+/*header*/
+.nav {
+    display: flex;
+
+    align-items: center;
+    margin-top: 60px;
+    left: 0;
+    top: 0;
+}
+.nav_item {
+    display: inline-block;
+    padding: 18px 29px;
+    margin-left: 5px;
+
+    font-family: "BIG JOHN";
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+
+
+}
+.mav_item:last-child {
+    margin-left: 0;
+}
+.nav{
+
+}
+
+.nav_item:hover {
+
+    border-radius: 15px;
+    background-color: #000;
+    color: #fed300;
+}
+
+/*intro*/
