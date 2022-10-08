@@ -124,9 +124,43 @@ header {
     font-size: 77px;
     text-align: center;
 }
-.doing_text {
+.doing_info {
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 100;
     text-align: justify;
+}
+.doing_type {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(445px, 1fr));
+    gap:75px;
+    margin: 150px 0;
+}
+.doing_item {
+    text-align: center;
+}
+.doing_text {
+    padding: 50px 0;
+}
+.doing_name {
+    padding-bottom: 25px;
+    font-family: "BIG JOHN";
+    text-transform: uppercase;
+    text-align: center;
+}
+/*works*/
+.works {
+
+}
+.works_title {
+    padding: 80px;
+    font-family: "BIG JOHN";
+    font-size: 77px;
+    text-transform: uppercase;
+    text-align: right;
+}
+.works_img {
+
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(445px,1fx));
 }
