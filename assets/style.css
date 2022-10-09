@@ -67,6 +67,11 @@ header {
     background-color: #000;
     color: #fed300;
 }
+@media only screen and (max-device-width: 600px) {
+    .nav {
+        display: none;
+    }
+}
 
 /*intro*/
 .intro {
@@ -87,6 +92,12 @@ header {
 .intro_title {
     font-family: "BIG JOHN";
     font-size: 60px;
+}
+@media only screen and (max-device-width: 600px) {
+    .intro_title {
+    font-family: "BIG JOHN";
+    font-size: 120px;
+    }
 }
 .intro_subtitle {
     padding-top: 75px;
@@ -111,6 +122,12 @@ header {
 .button:hover {
     color: #fed300;
     background: #000;
+}
+@media only screen and (max-device-width: 600px) {
+    .button {
+
+    font-size: 35px;
+    }
 }
 .button_cont {
     text-align: center;
@@ -144,6 +161,12 @@ header {
     font-size: 18px;
     font-weight: 100;
     text-align: justify;
+}
+@media only screen and (max-device-width: 600px) {
+    .doing_info {
+    font-size: 25px;
+
+}
 }
 .doing_type {
     display: grid;
