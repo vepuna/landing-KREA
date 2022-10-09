@@ -104,10 +104,23 @@ header {
     text-transform: uppercase;
     text-decoration: none;
 
+
     transition: background .2s linear;
 }
 .button:hover {
     color: #fed300;
+    background: #000;
+}
+.button_cont {
+    text-align: center;
+
+}
+.button.doing {
+    margin: 64px;
+  background: #fff;
+}
+.button.doing:hover {
+    color: #fff;
     background: #000;
 }
 /*doing*/
@@ -142,6 +155,11 @@ header {
 .doing_text {
     padding: 50px 0;
 }
+.doing_percent{
+    font-family: "BIG JOHN";
+    font-size: 48px;
+    color: #000;
+}
 .doing_name {
     padding-bottom: 25px;
     font-family: "BIG JOHN";
@@ -164,3 +182,13 @@ header {
     text-align: center;
     grid-template-columns: repeat(auto-fill, minmax(445px,1fx));
 }
+
+/*contact*/
+.contact {
+    background: #d2eae3;
+    display: grid;
+}
+.contact_container{
+
+}
+.
