@@ -188,7 +188,28 @@ header {
     background: #d2eae3;
     display: grid;
 }
-.contact_container{
-
+.contact_container {
+    width: 100%;
+    display: grid;
 }
-
+.contact_feedback {
+    width: 100%;
+    max-width: 665px;
+}
+.contact_input {
+    width: 100%;
+    max-width: 665px;
+    height: 43px;
+    border-radius: 15px;
+    background: #fad663;
+    color: #fff;
+    font-family: "BIG JOHN";
+}
+.contact_input.last {
+    height: 194px;
+}
+.contact_title {
+    padding: 13px;
+    font-family: "BIG JOHN";
+    font-size: 18px;
+}
