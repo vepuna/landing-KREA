@@ -105,6 +105,7 @@ header {
     text-decoration: none;
 
 
+
     transition: background .2s linear;
 }
 .button:hover {
@@ -117,7 +118,8 @@ header {
 }
 .button.doing {
     margin: 64px;
-  background: #fff;
+    background: #fff;
+
 }
 .button.doing:hover {
     color: #fff;
@@ -146,7 +148,7 @@ header {
 .doing_type {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(445px, 1fr));
-    gap:75px;
+    gap: 75px;
     margin: 150px 0;
 }
 .doing_item {
@@ -191,10 +193,16 @@ header {
 .contact_container {
     width: 100%;
     display: grid;
+    margin: 100px 10px;
+    gap: 65px;
+
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+
 }
 .contact_feedback {
     width: 100%;
     max-width: 665px;
+    margin: 0 auto;
 }
 .contact_input {
     width: 100%;
@@ -212,4 +220,64 @@ header {
     padding: 13px;
     font-family: "BIG JOHN";
     font-size: 18px;
+}
+.contact_info {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+}
+.contact_block {
+    font-family: "BIG JOHN";
+    font-size: 77px;
+}
+.contact_social {
+    display: grid;
+    margin: 60px 0;
+    gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+.contact_social_item {
+    color: #000;
+    padding: 15px;
+    font-size: 36px;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 35px;
+}
+.contact_social_item:hover {
+    color: #fad663;
+    background: #000;
+}
+.contact_adress{
+    margin: 35px 0;
+}
+.contact_wh {
+    margin: 15px 0;
+    font-family: "BIG JOHN";
+    font-size: 18px;
+
+}
+.contact_subtitle {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 100;
+}
+.contact_requisites {
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+/*footer_info*/
+.footer_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.author {
+    font-family: "BIG JOHN";
+    font-size: 18px;
+    padding-left: 15px;
+}
+.nav.footer {
+    margin: 0;
 }
