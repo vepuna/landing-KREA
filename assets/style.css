@@ -19,7 +19,9 @@ dd {
 *::before,
 *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
 
 .container {
 width: 100%;
@@ -42,6 +44,7 @@ header {
     display: flex;
     align-items: center;
     margin-top: 60px;
+
 
 
 }
@@ -145,6 +148,8 @@ header {
 /*doing*/
 .doing {
     margin: 120px;
+
+  scroll-behavior: smooth;
 }
 .doing_sup {
     display: grid;
@@ -155,6 +160,8 @@ header {
     font-family: "BIG JOHN";
     font-size: 77px;
     text-align: center;
+
+  scroll-behavior: smooth;
 }
 .doing_info {
     font-family: "Open Sans";
