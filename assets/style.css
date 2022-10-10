@@ -21,8 +21,6 @@ dd {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
-
 .container {
 width: 100%;
 max-width: 1520px;
@@ -44,9 +42,6 @@ header {
     display: flex;
     align-items: center;
     margin-top: 60px;
-
-
-
 }
 .nav_item {
     display: inline-block;
@@ -134,7 +129,6 @@ header {
 }
 .button_cont {
     text-align: center;
-
 }
 .button.doing {
     margin: 64px;
@@ -172,8 +166,7 @@ header {
 @media only screen and (max-device-width: 600px) {
     .doing_info {
     font-size: 25px;
-
-}
+    }
 }
 .doing_type {
     display: grid;
@@ -210,7 +203,6 @@ header {
     text-align: right;
 }
 .works_img {
-
     text-align: center;
     grid-template-columns: repeat(auto-fill, minmax(445px,1fx));
 }
@@ -227,7 +219,6 @@ header {
     gap: 65px;
 
     grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
-
 }
 .contact_feedback {
     width: 100%;
@@ -285,7 +276,6 @@ header {
     margin: 15px 0;
     font-family: "BIG JOHN";
     font-size: 18px;
-
 }
 .contact_subtitle {
     font-family: "Open Sans";
